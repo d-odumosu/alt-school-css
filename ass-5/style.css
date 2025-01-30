@@ -29,5 +29,13 @@ nav li{
 }
 nav a{
   text-decoration: none;
-  
+
 }
+input{
+  border: none;
+  background-color: #edeff2;
+}
+
+/* border:none;
+background color 
+gap*/

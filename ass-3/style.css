@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(150, 150, 194);
+  box-sizing: border-box;
+}
+.container {
+  width: 50%;
+  margin: 50px auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.new-and-improved {
+  background-color: rgb(252, 240, 165);
+
+  width: 50%;
+  top: 55px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.details {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}

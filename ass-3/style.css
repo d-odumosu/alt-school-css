@@ -1,22 +1,30 @@
 body {
   background-color: rgb(150, 150, 194);
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
 }
 .container {
-  width: 50%;
-  margin: 50px auto;
-  overflow: hidden;
+  max-width: 620px;
+  width: 90%;
   border-radius: 10px;
+  /* padding: 20px; */
+}
+.img-watch {
+  position: relative;
 }
 .new-and-improved {
   background-color: rgb(252, 240, 165);
-
-  width: 50%;
-  top: 55px;
+  position: absolute;
+  top: 10px;
+  left: 3px;
 }
-
 img {
-  display: block;
+  display: block; 
   max-width: 100%;
 }
 .details {

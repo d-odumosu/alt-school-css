@@ -1,94 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-     <header>
-        <div class="header-container header-container--flex">
-            <div class="logo">
-                <img src="/ass-5/wppusher-logo copy.png" alt="">  
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#" class="nav-link">download</a></li>
-                    <li><a href="#" class="nav-link">learn more</a></li>
-                    <li><a href="#" class="nav-link">pricing</a></li>
-                    <li><a href="#" class="nav-link">help</a></li>
-                    <li><a href="#" class="nav-link">account</a></li>
-                </ul>
-            </nav>
-        </div>   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container header-container--flex">
+        <div class="logo">
+          <img src="/ass-5/wppusher-logo copy.png" alt="" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#" class="nav-link">download</a></li>
+            <li><a href="#" class="nav-link">learn more</a></li>
+            <li><a href="#" class="nav-link">pricing</a></li>
+            <li><a href="#" class="nav-link">help</a></li>
+            <li><a href="#" class="nav-link">account</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main class="main-container">
-        <div class="main-content main-content--flex">
-            <section class="form-section">
-                <h2 class="form-heading">checkout</h2>
-                <form action="">
-                    <h3 class="form-subheading">your basic information</h3>
-                    <div class="form-group form-group--pair">
-                        <div class="form-field">
-                             <label for="fname" class="form-label">first name</label>
-                             <input type="text" name="fname" id="fname" class="form-input" placeholder="jane">
-                        </div>
-                        <div class="form-field">
-                             <label for="lname" class="form-label">last name</label>
-                             <input type="text" name="lname" id="lname" class="form-input" placeholder="doe">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="email" class="form-label">e-mail</label>
-                        <input type="email" name="email" id="email" class="form-input" placeholder="janedoe@example.com">
-                    </div>
-                    <h3 class="form-subheading">your payment information</h3>
-                    <div class="form-group">
-                        <label for="payment" class="form-label">credit card</label>
-                        <div class="payment-input-group">
-                            <input type="text" name="card-number" id="card-number" class="payment-input" placeholder="card number" maxlength="16">
-                            <input type="text" name="month-year" id="month-year" class="payment-input" placeholder="mm / yy" maxlength="5">
-                            <input type="text" name="cvc" id="cvc" class="payment-input" placeholder="cvc" maxlength="3">
-                        </div>
-                    </div>
-                    <button type="submit" class="submit-button">Buy WP Pusher</button>
-                </form>
-                <p class="form-support-text">need any help? don't hesitate to contact support!</p>
-                <div class="stripe-powered">
-                    <p>powered by <span class="stripe-brand">stripe</span></p>
-                </div>
-            </section>
+      <div class="main-content main-content--flex">
+        <section class="form-section">
+          <h2 class="form-heading">checkout</h2>
+          <form action="">
+            <h3 class="form-subheading">your basic information</h3>
+            <div class="form-group form-group--pair">
+              <div class="form-field">
+                <label for="fname" class="form-label">first name</label>
+                <input
+                  type="text"
+                  name="fname"
+                  id="fname"
+                  class="form-input"
+                  placeholder="jane"
+                />
+              </div>
+              <div class="form-field">
+                <label for="lname" class="form-label">last name</label>
+                <input
+                  type="text"
+                  name="lname"
+                  id="lname"
+                  class="form-input"
+                  placeholder="doe"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">e-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-input"
+                placeholder="janedoe@example.com"
+              />
+            </div>
+            <h3 class="form-subheading">your payment information</h3>
+            <div class="form-group">
+              <label for="payment" class="form-label">credit card</label>
+              <div class="payment-input-group">
+                <input
+                  type="text"
+                  name="card-number"
+                  id="card-number"
+                  class="payment-input"
+                  placeholder="card number"
+                  maxlength="16"
+                />
+                <input
+                  type="text"
+                  name="month-year"
+                  id="month-year"
+                  class="payment-input"
+                  placeholder="mm / yy"
+                  maxlength="5"
+                />
+                <input
+                  type="text"
+                  name="cvc"
+                  id="cvc"
+                  class="payment-input"
+                  placeholder="cvc"
+                  maxlength="3"
+                />
+              </div>
+            </div>
+            <button type="submit" class="submit-button">Buy WP Pusher</button>
+          </form>
+          <p class="form-support-text">
+            need any help? don't hesitate to contact support!
+          </p>
+          <div class="stripe-powered">
+            <p>powered by <span class="stripe-brand">stripe</span></p>
+          </div>
+        </section>
 
-            <section class="sidebar-section">
-                <div class="pricing-section">
-                    <h3 class="pricing-heading">freelancer</h3>
-                    <p class="pricing-details">
-                        <span class="pricing-currency">$</span>
-                        <span class="pricing-amount">99</span>
-                        <span class="pricing-term"> / year</span>
-                    </p>
-                    <p class="renewal-info">automatically renews after 1 year</p>
-                    <ul class="features-list">
-                        <li>use on <span class="feature-highlight">5</span> client sites</li>
-                        <li>private repositories</li>
-                        <li>Email support</li>
-                    </ul>
-                    <p class="upgrade-info">need <span class="feature-highlight">20</span> client sites? <span class="upgrade-link">switch to Agency plan.</span></p>
-                </div>
-                <div class="testimonial-section">
-                    <p class="testimonial-text">FTP is horrible to deal with. <strong>WP Pusher</strong> solves that issue, and the customer support is awesome!</p>
-                    <div class="testimonial-author">
-                        <img src="" alt="" class="testimonial-image">
-                        <p class="author-name">kirk beard</p>
-                    </div>
-                </div>
-            </section>
-        </div>
+        <section class="sidebar-section">
+          <div class="pricing-section">
+            <h3 class="pricing-heading">freelancer</h3>
+            <p class="pricing-details">
+              <span class="pricing-currency">$</span>
+              <span class="pricing-amount">99</span>
+              <span class="pricing-term"> / year</span>
+            </p>
+            <p class="renewal-info">automatically renews after 1 year</p>
+            <ul class="features-list">
+              <li>
+                use on <span class="feature-highlight">5</span> client sites
+              </li>
+              <li>private repositories</li>
+              <li>Email support</li>
+            </ul>
+            <p class="upgrade-info">
+              need <span class="feature-highlight">20</span> client sites?
+              <span class="upgrade-link">switch to Agency plan.</span>
+            </p>
+          </div>
+          <div class="testimonial-section">
+            <p class="testimonial-text">
+              FTP is horrible to deal with. <strong>WP Pusher</strong> solves
+              that issue, and the customer support is awesome!
+            </p>
+            <div class="testimonial-author">
+              <img src="" alt="" class="testimonial-image" />
+              <p class="author-name">kirk beard</p>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
-</body>
+  </body>
 </html>

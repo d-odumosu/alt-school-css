@@ -1,24 +1,46 @@
 body{
   background-color: rgb(24, 24, 24);
   color: black;
+
+}
+h1.browser-reset{
+  margin: 0 0;
+  display: block; 
+  font-size: 2em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  /* margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+  font-weight: bold;
+  unicode-bidi: isolate;
 }
 .container{
   background-color: rgb(255, 255, 255);
   width: 350px;
   position: absolute;
-  padding: 30px;
   top: 25%;
   left: 30%;
+  border-radius: 6px;
 
 }
-.title{
-  background-color: rgb(255, 0, 131);
-  position: absolute;
-  top: 20%;
-  left: 35%;
-  z-index: 1;
-  padding: 0 20px;  
-}
+.pink-box{
+  background-color: rgb(255, 0, 131); 
+  display: inline-block;
+  margin: 0 auto; 
+  border-radius: 6px;
 
+}
+.top-overlap{
+  position: relative;
+  padding: 10px 25px;
+  top: -1.5rem;
+}
+.paragraph-container{
+  padding: 30px;
+
+}
+.div-centre-content{
+  text-align: center;
+}
 
 
